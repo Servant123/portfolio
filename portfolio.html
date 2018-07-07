@@ -1,0 +1,225 @@
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="20">
+<nav class="navbar navbar-default navbar-fixed-top" >
+  <div class="container-fluid" >
+    <div class="navbar header">
+	<button class="btn btn-primary navbar-toggle" data-toggle="collapse" data-target="#menu">
+	<i class="fa fa-align-justify"></i> <!-- <span class="glyphicon glyphicon-align-justify"></span> -->
+	</button>
+      <a class="navbar-brand">Shravan Kaup Shemoy</a>
+   
+		<div class="collapse navbar-collapse" id="menu">
+    <ul class="nav navbar-nav navbar-right ">
+      <li class="active"><a href="#about" >About</a></li>
+      <li><a href="#latestProjCon">Latest projects</a></li>
+      <li><a href="#upcomingproj"  >Upcoming projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+		</div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container aboutMeContainer"  >
+  <div class="jumbotron aboutMe"id="about">
+    
+    <p>Aspiring to be a full stack developer. Also interested in Embedded Systems and IoT</p>
+    <p>Motto: To learn, learn and learn!!</p>
+   
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tigress_at_Jim_Corbett_National_Park.jpg" class="img-responsive myImage round-image center-block" alt="Pic of myself">
+      
+    
+  </div>
+</div>	
+
+<div class="container jumbotron" id="latestProjCon">
+<h1 class="text-center text-primary"> --Latest Projects--</h1>
+<h6 class="text-center"> Click on image to visit the project </h6> 
+	
+<div class="carousel slide" id="latestProj" data-ride="carousel" >
+  <ol class="carousel-indicators" style="margin-top:250px">
+	<li data-target="#latestProj" data-slide-to="0" class="active">
+	<li data-target="#latestProj" data-slide-to="1" >
+	<li data-target="#latestProj" data-slide-to="2" >
+  
+  </ol>
+  
+  <div class="carousel-inner " >
+	  <div class="item active ">
+	  
+	
+	  <a href="https://codepen.io/shenoy123/full/BZmYKq/" target="_blank"> <img class="imgCarousel" src="http://www.thefamouspeople.com/profiles/thumbs/verghese-kurien-2.jpg" alt="Dr Kurien "></a>
+			<div class="carousel-caption">
+			<h4 style="position:relative; top:50px"> A tribute to Dr Kurien </h4>
+			</div>
+	  
+	  </div>
+	  
+	  <div class="item ">
+	  <a href="https://codepen.io/shenoy123/full/bRvEaB/" target="_blank"><img class="imgCarousel" src="https://everydaypowerblog.com/wp-content/uploads/2015/11/Socrates-Quotes-13.jpg" alt="Socrates"> </a>
+	  <div class="carousel-caption">
+	  <h4 style="position:relative; top:50px">Random Quote Generator </h4>
+	  </div>
+	  </div>
+	  
+	  <div class="item">
+	  <a href="https://codepen.io/shenoy123/full/owqZjQ/" target="_blank"> <img class="imgCarousel" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Wiki-black.png" alt="Wiki"></a>
+	  <div class="carousel-caption">
+	  <h4 style="position:relative; top:50px">Wikipedia Search</h4>
+	  </div>
+	  </div>
+  </div>
+  
+  <a class="left carousel-control" href="#latestProj" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" ></span>
+  </a>
+  
+  <a class="right carousel-control" href="#latestProj" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  
+  </div>
+  
+  </div>
+ 
+  
+  
+</div>
+
+<div class="container" id="upcomingproj">
+  <div class="jumbotron upcomingProjInfo" >
+  
+    <h2 class="text-center">--UPCOMING PROJECTS--</h2> 
+       <div class="row">        			
+						 
+		 <figure class="imgUpcoming">
+    <img class="imgUpcoming" src="https://cdn.instructables.com/FHT/X4H2/IBXM5JP6/FHTX4H2IBXM5JP6.MEDIUM.jpg" alt="NRF ">
+               <figcaption><b>Serial communication using arduino <br>and nrf module</b></figcaption>
+             </figure>  
+			 
+			  
+
+           
+             <figure class="imgUpcoming">
+   <img class="imgUpcoming" src="http://contribute.geeksforgeeks.org/wp-content/uploads/tic-tac-toe.png"  alt="TTT ">
+               <figcaption><b>     TIC-TAC-TOE</b></figcaption>
+             </figure>   
+         
+         
+       
+       </div> 
+    
+     </div>
+</div>
+<div class="container" id="contact">
+  <div class="jumbotron " >
+    <h2 class="text-primary text-center vanish">---CONTACT ME---</h2>
+    <p class="text-center">Meet me by clicking any of the links below</p>
+    <div class="row text-center ">
+      <a href="https://twitter.com/" target="_blank" type="button"><i class="fa fa-twitter icon" style="font-size:36px"></i></button>
+      <a href="https://github.com/" target="_blank" type="button"><i class="fa fa-github icon" style="font-size:36px"></i></button>
+      <a href="https://www.linkedin.com/" target="_blank" type="button"><i class="fa fa-linkedin-square icon" style="font-size:36px"></i></button>
+    </div>
+    
+  </div>
+</div>
+
+<style>
+.imgUpcoming{
+
+display:inline-block;
+vertical-align:top;
+margin:20px;
+width:25%;
+height:auto;
+
+
+}
+
+.imgUpcoming img
+{
+width:100%;
+}
+
+figure figcaption
+{
+
+text-align:center;
+font-size:32px;
+font-size: 1.6vw;<!-- font size viewport dependent-->
+}
+
+.imgCarousel{
+width: 280px;
+
+margin-left:auto;
+margin-right:auto;
+background-size:cover;
+text-align: center;
+display: table-cell;
+vertical-align: middle
+
+}
+.jumbotron
+{
+min-height: 700px;
+}
+
+.aboutMe{
+padding-top:15%;
+background-color:grey;
+color:white; <!-- inherited by children-->
+}
+
+
+
+.aboutMeContainer
+{margin-top:10%;}	
+
+.navbar{
+margin-bottom:0;
+background-color:purple;
+color:white;
+}	  
+	  
+
+.upcomingProjInfo{
+
+   background-color: #87cefa;
+}
+
+
+.myImage
+{
+width:200px;
+                          
+}
+.round-image
+{
+  border-radius:50%;
+}
+
+body
+{position:relative;}
+
+.icon
+{
+margin-left: 20px;
+margin-right:20px;
+}
+.vanish:hover
+{
+opacity:0;
+}
+
+
+</style>
+
+</body>
